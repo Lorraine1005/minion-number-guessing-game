@@ -1,0 +1,141 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(img/background.webp);
+  background-size: cover;
+  color: #282421;
+  text-align: center;
+  position: relative;
+}
+main {
+  background-color: #f3cd65;
+  margin: 5em auto;
+  max-width: 40em;
+  padding: 1em 3em 3em;
+  border-radius: 25px;
+
+  box-shadow: 1px 1px 10px 1px #28242153;
+}
+h1 {
+  color: #282421;
+  text-align: center;
+  font-size: 3rem;
+  color: #282421;
+}
+.btn {
+  font-size: 1.6rem;
+  padding: 0.5em 1em;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.random-number-generator-btn {
+  margin-top: 0.5em;
+  background-color: #9e7841;
+  border: 1px solid #9e7841;
+}
+.random-number-generator-btn:hover {
+  background-color: #9e77415a;
+}
+input {
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 20px;
+}
+.submit-input-btn {
+  background-color: #597697;
+  border: 1px solid #597697;
+}
+.submit-input-btn:hover {
+  background-color: #5976976a;
+}
+.user-input-box {
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+.game-tries-counter {
+  font-size: 2rem;
+  margin-top: 1em;
+}
+.game-state-display-el {
+  margin-top: 2em;
+  font-size: 1.4rem;
+}
+.game-tries-counter {
+  font-size: 1.6rem;
+}
+.game-state-display-el,
+.game-tries-counter {
+  color: #282421;
+  text-transform: capitalize;
+}
+
+.sticky-note-box {
+  text-align: center;
+  max-width: 30em;
+  position: absolute;
+  background-color: rgba(255, 255, 0, 0.574);
+  background-size: cover;
+  top: 40%;
+  left: 2%;
+  padding: 1em 2em;
+  border-radius: 11px;
+  box-shadow: 1px 1px 10px 1px #2824213b;
+}
+.sticky-note-icon {
+  margin-top: 0;
+  font-size: 3rem;
+}
+ul {
+  list-style: none;
+  margin-top: 3em;
+}
+.game-rules-heading {
+  margin: -1em;
+  font-size: 2rem;
+}
+.game-rule {
+  margin-top: 0.5em;
+  font-size: 1.6rem;
+}
+.reset-btn {
+  margin-top: 1em;
+  background-color: #c79844;
+  border: 1px solid #c79844;
+}
+
+@media only screen and (max-width: 1200px) {
+  main {
+    margin-top: 1em;
+  }
+  .sticky-note-box {
+    top: 105%;
+    left: 30%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  main {
+    margin-top: 1em;
+  }
+  .sticky-note-box {
+    top: 105%;
+    left: 10%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  html {
+    font-size: 50%;
+  }
+  main {
+    margin-top: 1em;
+  }
+  .sticky-note-box {
+    top: 103%;
+    left: 10%;
+  }
+}

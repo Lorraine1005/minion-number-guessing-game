@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guessing Game</title>
+  </head>
+  <body>
+    <main>
+      <header class="header">
+        <h1>Guess A Number 👇</h1>
+      </header>
+      <button class="random-number-generator-btn btn" id="random-number-generator-btn">
+        Generate Random Number
+      </button>
+      <p class="mystery-number-display"></p>
+      <section class="user-input-section">
+        <div class="user-input-box" >
+        <input
+          type="text"
+    
+          class="guess-input-el"
+          id="guess-input-el"
+        />
+        <button class="btn submit-input-btn" id="submit-input-btn">Submit Your Guess</button>
+      </div>
+        <p class="game-tries-counter" id="game-tries-counter"></p>
+      </section>
+      <section>
+        <p class="game-state-display-el" id="game-state-display-el"></p>
+        <button id="reset-btn" class="reset-btn btn">Reset Game</button>
+      </section>
+      <div class="sticky-note-box">
+        <p class="sticky-note-icon">📌</p>
+        <h3 class="game-rules-heading">How To Play</h3>
+        <ul class="game-rules-list">
+          <li class="game-rule">Click "Generate Random Number Button"</li>
+          <li class="game-rule">The computer will generate a random number between 1 - 100</li>
+          <li class="game-rule">Input your guess and click "Submit Your Guess"</li>
+          <li class="game-rule">You have 3 attempts before the Game is Over and 
+            the computer will display the mystery number
+          </li>
+          <li class="game-rule">- Good Luck! -
+          </li>
+        </ul>
+       
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
